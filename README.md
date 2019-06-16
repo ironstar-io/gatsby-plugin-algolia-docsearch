@@ -2,7 +2,7 @@
 
 Easily add Algolia DocuSearch to your Gatsby site.
 
-Inspired by the code at (https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-google-tagmanager)[https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-google-tagmanager]
+Inspired by the code at [https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-google-tagmanager](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-google-tagmanager)
 
 ## Install
 
