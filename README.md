@@ -1,12 +1,12 @@
-# gatsby-plugin-algolia-docusearch
+# gatsby-plugin-algolia-docsearch
 
-Easily add Algolia DocuSearch to your Gatsby site.
+Easily add Algolia DocSearch to your Gatsby site.
 
 Inspired by the code at [https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-google-tagmanager](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-google-tagmanager)
 
 ## Install
 
-`npm install --save gatsby-plugin-algolia-docusearch`
+`npm install --save gatsby-plugin-algolia-docsearch`
 
 ## How to use
 
@@ -14,7 +14,7 @@ Inspired by the code at [https://github.com/gatsbyjs/gatsby/tree/master/packages
 // In your gatsby-config.js
 plugins: [
   {
-    resolve: `gatsby-plugin-algolia-docusearch`,
+    resolve: `gatsby-plugin-algolia-docsearch`,
     options: {
       apiKey: "ALGOLIA_DOCUSEARCH_API_KEY", // required
       indexName: "ALGOLIA_DOCUSEARCH_INDEX_NAME", // required
@@ -29,7 +29,7 @@ The fields `apiKey`, `indexName` and `inputSelector` must be set. This plugin ha
 of these is missing, rather, it will simply do nothing.
 
 Now all that you need to do it add an `input` type element anywhere on the page with a selector that matches the `inputSelector`
-field in your `options` object to enjoy Algolia DocuSearch in your Gatsby project!
+field in your `options` object to enjoy Algolia DocSearch in your Gatsby project!
 
 ## Element Check
 

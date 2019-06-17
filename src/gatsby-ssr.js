@@ -11,7 +11,7 @@ exports.onRenderBody = (
 
   setHeadComponents([
     <link
-      key="plugin-docusearch-css"
+      key="plugin-docsearch-css"
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"
     />
@@ -19,12 +19,12 @@ exports.onRenderBody = (
 
   setPostBodyComponents([
     <script
-      key="plugin-docusearch-js"
+      key="plugin-docsearch-js"
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"
     />,
     <script
-      key="plugin-docusearch-initiate"
+      key="plugin-docsearch-initiate"
       type="text/javascript"
       dangerouslySetInnerHTML={{
         __html: stripIndent`

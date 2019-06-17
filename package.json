@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-plugin-algolia-docusearch",
+  "name": "gatsby-plugin-algolia-docsearch",
   "version": "1.0.4",
-  "description": "A Gatsby plugin for integrating with Algolia DocuSearch",
+  "description": "A Gatsby plugin for integrating with Algolia DocSearch",
   "author": "Jimmy Cann <mail@jimmycann.com>",
   "bugs": {
-    "url": "https://github.com/ironstar-io/gatsby-plugin-algolia-docusearch/issues"
+    "url": "https://github.com/ironstar-io/gatsby-plugin-algolia-docsearch/issues"
   },
   "dependencies": {
     "@babel/runtime": "^7.0.0"
@@ -20,16 +20,16 @@
     "gatsby",
     "gatsby-plugin",
     "algolia",
-    "docusearch",
-    "algolia docusearch",
-    "algolia-docusearch"
+    "docsearch",
+    "algolia docsearch",
+    "algolia-docsearch"
   ],
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
     "gatsby": "^2.0.0"
   },
-  "repository": "https://github.com/ironstar-io/gatsby-plugin-algolia-docusearch",
+  "repository": "https://github.com/ironstar-io/gatsby-plugin-algolia-docsearch",
   "scripts": {
     "build": "babel src --out-dir . --ignore **/__tests__",
     "prepare": "cross-env NODE_ENV=production npm run build",
