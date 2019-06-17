@@ -28,13 +28,26 @@ exports.onRenderBody = (
       type="text/javascript"
       dangerouslySetInnerHTML={{
         __html: stripIndent`
+        var observer = new MutationObserver(function (mutations, instance) {
+          var docuSearchElem = document.querySelector('${inputSelector}');
+          if (docuSearchElem) {
             docsearch({
-              apiKey: ${apiKey},
-              indexName: ${indexName},
-              inputSelector: ${inputSelector},
+              apiKey: "${apiKey}",
+              indexName: "${indexName}",
+              inputSelector: "${inputSelector}",
               debug: ${debug === true ? "true" : "false"}
-            })
-            `
+            });
+            instance.disconnect(); // stop observing
+            return;
+          }
+        });
+
+        // start observing
+        observer.observe(document, {
+          childList: true,
+          subtree: true
+        });
+        `
       }}
     />
   ]);
