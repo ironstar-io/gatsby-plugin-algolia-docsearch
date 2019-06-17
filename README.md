@@ -28,7 +28,8 @@ plugins: [
 The fields `apiKey`, `indexName` and `inputSelector` must be set. This plugin has been configured not to throw when one
 of these is missing, rather, it will simply do nothing.
 
-Now all that you need to do it add an `input` type element anywhere on the page with a selector that matches the `inputSelector field in your`options` object to enjoy Algolia DocuSearch in your Gatsby project!
+Now all that you need to do it add an `input` type element anywhere on the page with a selector that matches the `inputSelector`
+field in your `options` object to enjoy Algolia DocuSearch in your Gatsby project!
 
 ## Element Check
 
