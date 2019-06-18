@@ -43,9 +43,11 @@ exports.onRenderBody = (
         });
 
         // start observing
-        observer.observe(document, {
-          childList: true,
-          subtree: true
+        document.addEventListener("DOMContentLoaded", function() {
+          observer.observe(document, {
+            childList: true,
+            subtree: true
+          });
         });
         `
       }}
